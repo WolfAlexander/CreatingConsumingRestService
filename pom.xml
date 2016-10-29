@@ -11,6 +11,8 @@
     <modules>
         <module>configuration_server</module>
         <module>restapi</module>
+        <module>webcontent_server</module>
+        <module>javafx_application</module>
     </modules>
 
     <parent>
