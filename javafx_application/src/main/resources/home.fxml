@@ -5,13 +5,14 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="15.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.HomeController">
    <children>
-      <Label text="Label">
+      <Label text="Enter student id:">
          <font>
-            <Font size="72.0" />
+            <Font size="25.0" />
          </font>
       </Label>
+      <TextField fx:id="studentIdInput" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+      <Button mnemonicParsing="false" onAction="#showStudentUsingId" prefHeight="23.0" prefWidth="148.0" text="Get Student" />
    </children>
 </VBox>
